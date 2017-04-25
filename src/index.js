@@ -30,7 +30,7 @@ class App extends Component {
           <div className="social-links">
             <Grid>
               <Cell col={4} className="social-link instagram">
-                <a href="#instagram">
+                <a href="https://www.instagram.com/ovelhanegraveg/">
                   <div className="icon">
                     <svg viewBox="0 0 512 512">
                       <title>Instagram</title>
@@ -41,7 +41,7 @@ class App extends Component {
                 </a>
               </Cell>
               <Cell col={4} className="social-link facebook">
-                <a href="#instagram">
+                <a href="https://www.facebook.com/ovelhanegraveg">
                   <div className="icon">
                     <svg viewBox="0 0 800 800">
                       <title>Facebbok</title>
@@ -52,7 +52,7 @@ class App extends Component {
                 </a>
               </Cell>
               <Cell col={4} className="social-link whatsapp">
-                <a href="#instagram">
+                <a href="tel:+5535988088547">
                   <div className="icon">
                     <svg viewBox="0 0 800 800">
                       <title>Whatsapp</title>

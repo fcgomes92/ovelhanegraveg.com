@@ -20,7 +20,7 @@
   "bugs": {
     "url": "https://github.com/fcgomes92/ovelhanegraveg.com/issues"
   },
-  "homepage": "https://fcgomes92.github.io/ovelhanegraveg.com",
+  "homepage": "https://fcgomes92.github.io/ovelhanegraveg.com/",
   "dependencies": {
     "classnames": "^2.2.5",
     "prop-types": "^15.5.8",
