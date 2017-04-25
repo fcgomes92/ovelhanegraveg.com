@@ -1,0 +1,69 @@
+$orange-50: #FFF3E0;
+$orange-100: #FFE0B2;
+$yellow-50: #FFFDE7;
+$yellow-100: #FFF9C4;
+
+body {
+  background-color: $orange-50;
+}
+
+.logo {
+  margin: auto;
+  text-align: center;
+  max-width: 90%;
+  height: auto;
+  @media (min-width: 25em) {
+    width: 40%;
+  }
+  @media (min-width: 48em) {
+    width: 30%;
+  }
+  @media (min-width: 64em) {
+    width: 15%;
+  }
+  transition: all 250ms ease;
+
+  &:hover {
+    transform: scale(1.05);
+  }
+
+  .svg-logo {}
+}
+
+.social-links {
+  text-align: center;
+
+  .social-link {
+    transition: all 250ms ease;
+
+    &:hover {
+      transform: scale(1.2);
+    }
+
+    a {
+      color: #212121;
+      text-decoration: none;
+    }
+
+    .text {
+      transition: all 250ms ease;
+      font-size: 2em;
+    }
+
+    .icon {
+      transition: all 250ms ease;
+
+      svg {
+        transition: all 250ms ease;
+        vertical-align: middle;
+        height: 100%;
+      }
+      height: 5em;
+      margin: 0.5em;
+    }
+  }
+}
+
+.footer {
+  background: linear-gradient($orange-50, $orange-100);
+}
